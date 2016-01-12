@@ -16,11 +16,11 @@ public class Enums : MonoBehaviour {
 		Blue, Green, Red
 	}
 */
-	public myGameColors myCurrentGameColor = myGameColors.Red;
+	//public myGameColors myCurrentGameColor = myGameColors.Red;
 
 
-	void Update ()
-	{
+	//void Update ()
+	//{
 		//If the system compared a new value to the position it creates a lot of unlinked values that makes a lot of garbadge dumping.
 		//In this case it references only the one value "myPosition".
 /*		Vector3 position = new Vector3 ();
@@ -43,7 +43,7 @@ public class Enums : MonoBehaviour {
 			print ("No Color");
 			break;
 		}
-*/
+
 
 		switch (StaticVariables.CurrentWeapon) 
 		{
@@ -60,9 +60,9 @@ public class Enums : MonoBehaviour {
 			print ("No Color");
 			break;
 	}
-
+*/
 	//This is a sollution to not having a value on Update. OnMouseDown Loads when the item is clicked. (maybe on the hitbox not sure though)
-	void OnMouseDown () 
+/*	void OnMouseDown () 
 	{
 		if (myCurrentGameColor == myGameColors.Red)
 			print (myCurrentGameColor);
@@ -70,6 +70,6 @@ public class Enums : MonoBehaviour {
 		{
 			print ("isNotRed");
 		}
-	}
+	}*/
 }
 

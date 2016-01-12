@@ -3,7 +3,7 @@ using System.Collections;
 
 public class StaticVariables : MonoBehaviour {
 
-	public static enum myAvalibleWeapons
+/*	public static enum myAvalibleWeapons
 	{
 
 		knife,
@@ -18,5 +18,6 @@ public class StaticVariables : MonoBehaviour {
 
 
 	}
+*/
 
 }
