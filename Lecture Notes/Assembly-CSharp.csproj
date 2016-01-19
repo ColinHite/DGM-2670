@@ -49,10 +49,12 @@
      <Compile Include="Assets\MessageAndAmmoPU.cs" />
      <Compile Include="Assets\MessagePowerUp.cs" />
      <Compile Include="Assets\Scripts\AddBulletForce.cs" />
+     <Compile Include="Assets\Scripts\AmmoAndHealthPowerup.cs" />
      <Compile Include="Assets\Scripts\AmmoPowerUp.cs" />
      <Compile Include="Assets\Scripts\Enums.cs" />
      <Compile Include="Assets\Scripts\HealthPowerUp.cs" />
      <Compile Include="Assets\Scripts\Loops.cs" />
+     <Compile Include="Assets\Scripts\Misc\NotesOne.cs" />
      <Compile Include="Assets\Scripts\MyArrays.cs" />
      <Compile Include="Assets\Scripts\PowerUpOverloaded.cs" />
      <Compile Include="Assets\Scripts\StaticVariables.cs" />

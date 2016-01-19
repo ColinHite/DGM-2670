@@ -1,17 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MessageAndAmmoPU.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Misc\NotesOne.cs">
     <Files>
-      <File FileName="..\..\PersonalProjectsHite\BulletH_Hite\Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="..\..\DGM-2221\TopDownShooter_Hite,Colin\Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="..\..\New Unity Project\Assets\Test.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Loops.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StaticVariables.cs" Line="1" Column="1" />
+      <File FileName="Assets\MessageAndAmmoPU.cs" Line="9" Column="17" />
       <File FileName="Assets\Scripts\HealthPowerUp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AmmoPowerUp.cs" Line="8" Column="17" />
-      <File FileName="Assets\Scripts\PowerUpOverloaded.cs" Line="18" Column="19" />
+      <File FileName="Assets\Scripts\AmmoPowerUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PowerUpOverloaded.cs" Line="1" Column="1" />
       <File FileName="Assets\MessagePowerUp.cs" Line="1" Column="1" />
-      <File FileName="Assets\MessageAndAmmoPU.cs" Line="8" Column="18" />
+      <File FileName="Assets\Scripts\AmmoAndHealthPowerup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Misc\NotesOne.cs" Line="23" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
