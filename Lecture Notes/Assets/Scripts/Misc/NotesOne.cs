@@ -27,14 +27,14 @@ public class NotesOne : MonoBehaviour {
 		thisRigidBody.AddForce (0, 1000, 0);
 	}
 
-	void OnMouseEnter()
-	{
-		print ("Enter");
-	}
-
-	void OnMouseExit()
-	{
-		print ("Exit");
-	}
+//	void OnMouseEnter()
+//	{
+//		print ("Enter");
+//	}
+//
+//	void OnMouseExit()
+//	{
+//		print ("Exit");
+//	}
 
 }

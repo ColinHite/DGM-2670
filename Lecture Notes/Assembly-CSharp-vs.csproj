@@ -46,6 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ControlEvent.cs" />
+     <Compile Include="Assets\EventHandler.cs" />
+     <Compile Include="Assets\EventHandlerCube.cs" />
+     <Compile Include="Assets\EventHandlerSphere.cs" />
      <Compile Include="Assets\MessageAndAmmoPU.cs" />
      <Compile Include="Assets\MessagePowerUp.cs" />
      <Compile Include="Assets\Scripts\AddBulletForce.cs" />
@@ -62,6 +66,18 @@
      <Compile Include="Assets\Scripts\StaticPumpkins.cs" />
      <Compile Include="Assets\Scripts\StaticVariables.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
