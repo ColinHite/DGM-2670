@@ -46,26 +46,29 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ControlEvent.cs" />
-     <Compile Include="Assets\EventHandler.cs" />
-     <Compile Include="Assets\EventHandlerCube.cs" />
-     <Compile Include="Assets\EventHandlerSphere.cs" />
-     <Compile Include="Assets\MessageAndAmmoPU.cs" />
-     <Compile Include="Assets\MessagePowerUp.cs" />
-     <Compile Include="Assets\Scripts\AddBulletForce.cs" />
-     <Compile Include="Assets\Scripts\AmmoAndHealthPowerup.cs" />
-     <Compile Include="Assets\Scripts\AmmoPowerUp.cs" />
-     <Compile Include="Assets\Scripts\Enums.cs" />
-     <Compile Include="Assets\Scripts\HealthPowerUp.cs" />
-     <Compile Include="Assets\Scripts\Loops.cs" />
-     <Compile Include="Assets\Scripts\Misc\NotesOne.cs" />
-     <Compile Include="Assets\Scripts\Misc\PumpkinStateMachine.cs" />
-     <Compile Include="Assets\Scripts\MyArrays.cs" />
-     <Compile Include="Assets\Scripts\PowerUpOverloaded.cs" />
-     <Compile Include="Assets\Scripts\PumpkinControler.cs" />
-     <Compile Include="Assets\Scripts\StaticPumpkins.cs" />
-     <Compile Include="Assets\Scripts\StaticVariables.cs" />
-     <Compile Include="Assets\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Old\AddBulletForce.cs" />
+     <Compile Include="Assets\Scripts\Old\AmmoAndHealthPowerup.cs" />
+     <Compile Include="Assets\Scripts\Old\AmmoPowerUp.cs" />
+     <Compile Include="Assets\Scripts\Old\Enums.cs" />
+     <Compile Include="Assets\Scripts\Old\HealthPowerUp.cs" />
+     <Compile Include="Assets\Scripts\Old\Loops.cs" />
+     <Compile Include="Assets\Scripts\Old\Misc\NotesOne.cs" />
+     <Compile Include="Assets\Scripts\Old\Misc\PumpkinStateMachine.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\ControlEvent.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\EventHandler.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\EventHandlerCube.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\EventHandlerSphere.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\MessageAndAmmoPU.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\MessagePowerUp.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\MyArrays.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\PumpkinControler.cs" />
+     <Compile Include="Assets\Scripts\Old\Old2\StaticPumpkins.cs" />
+     <Compile Include="Assets\Scripts\Old\PowerUpOverloaded.cs" />
+     <Compile Include="Assets\Scripts\Old\StaticVariables.cs" />
+     <Compile Include="Assets\Scripts\Old\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Powerups\MessagesPowerUp.cs" />
+     <Compile Include="Assets\Scripts\Powerups\PowerUpBase.cs" />
+     <Compile Include="Assets\Scripts\Powerups\TextHandler.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
