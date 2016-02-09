@@ -8,10 +8,14 @@ public class WeaponClass : MonoBehaviour {
 
 	void OnTriggerEnter()
 	{
-		print (this);
+		GetComponent<BoxCollider> ().enabled = false;
+
+//		print (this);
+
 		if (PassWeapon != null)
 			PassWeapon (this);
-
 		gameObject.SetActive (false);
+
+//		gameObject.SetActive (false);
 	}
 }
