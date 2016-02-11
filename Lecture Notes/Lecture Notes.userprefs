@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Powerups\WeaponInventory.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Review\Conditionals.cs">
     <Files>
-      <File FileName="Assets\Scripts\Powerups\WeaponInventory.cs" Line="40" Column="21" />
-      <File FileName="Assets\Scripts\Powerups\MessagesPowerUp.cs" Line="18" Column="34" />
-      <File FileName="Assets\Scripts\Powerups\TextHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Powerups\PowerUpBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Powerups\WeaponClass.cs" Line="5" Column="21" />
+      <File FileName="Assets\Scripts\Review\Conditionals.cs" Line="21" Column="2" />
+      <File FileName="Assets\Scripts\Review\Functions.cs" Line="31" Column="17" />
+      <File FileName="Assets\Scripts\Powerups\MessagesPowerUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Review\ArraysAndLists.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

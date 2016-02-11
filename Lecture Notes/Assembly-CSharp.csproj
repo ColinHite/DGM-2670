@@ -71,6 +71,10 @@
      <Compile Include="Assets\Scripts\Powerups\TextHandler.cs" />
      <Compile Include="Assets\Scripts\Powerups\WeaponClass.cs" />
      <Compile Include="Assets\Scripts\Powerups\WeaponInventory.cs" />
+     <Compile Include="Assets\Scripts\Review\ArraysAndLists.cs" />
+     <Compile Include="Assets\Scripts\Review\Conditionals.cs" />
+     <Compile Include="Assets\Scripts\Review\Functions.cs" />
+     <Compile Include="Assets\Scripts\Review\Variables.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
