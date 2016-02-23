@@ -71,6 +71,8 @@
      <Compile Include="Assets\Scripts\Powerups\TextHandler.cs" />
      <Compile Include="Assets\Scripts\Powerups\WeaponClass.cs" />
      <Compile Include="Assets\Scripts\Powerups\WeaponInventory.cs" />
+     <Compile Include="Assets\Scripts\Respawning\SetThisAsSpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Respawning\SpawnControl.cs" />
      <Compile Include="Assets\Scripts\Review\ArraysAndLists.cs" />
      <Compile Include="Assets\Scripts\Review\Conditionals.cs" />
      <Compile Include="Assets\Scripts\Review\Functions.cs" />
