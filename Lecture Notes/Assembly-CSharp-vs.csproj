@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\NavMesh_AI\NavMesh.cs" />
+     <Compile Include="Assets\Scripts\NavMesh_AI\NewRandomAi.cs" />
      <Compile Include="Assets\Scripts\Old\AddBulletForce.cs" />
      <Compile Include="Assets\Scripts\Old\AmmoAndHealthPowerup.cs" />
      <Compile Include="Assets\Scripts\Old\AmmoPowerUp.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\Scripts\Powerups\WeaponInventory.cs" />
      <Compile Include="Assets\Scripts\Respawning\SetThisAsSpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Respawning\SpawnControl.cs" />
+     <Compile Include="Assets\Scripts\Respawning\SpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Review\ArraysAndLists.cs" />
      <Compile Include="Assets\Scripts\Review\Conditionals.cs" />
      <Compile Include="Assets\Scripts\Review\Functions.cs" />
