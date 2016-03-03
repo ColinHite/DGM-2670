@@ -3,14 +3,16 @@ using System.Collections;
 
 public class ActivatePuzzel : MonoBehaviour {
 
-	public Animator anims;
+	//public Animator anims;
 
-	public enum colors [green,red,blue]
+	//public enum colors {green,red,blue}
+
+	public PuzzelLogic colorPuzzelLogic;
 
 	void OnTriggerEnter ()
 	{
-
-		anims.SetBool ("CanOpen", true);
+		colorPuzzelLogic.RunLogic (this.name);
+		//anims.SetBool ("CanOpen", true);
 
 	}
 }

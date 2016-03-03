@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Powerups\WeaponInventory.cs" />
      <Compile Include="Assets\Scripts\Puzel\ActivatePuzzel.cs" />
      <Compile Include="Assets\Scripts\Puzel\PuzzelControl.cs" />
+     <Compile Include="Assets\Scripts\Puzel\PuzzelLogic.cs" />
      <Compile Include="Assets\Scripts\Respawning\SetThisAsSpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Respawning\SpawnControl.cs" />
      <Compile Include="Assets\Scripts\Respawning\SpawnPoint.cs" />
