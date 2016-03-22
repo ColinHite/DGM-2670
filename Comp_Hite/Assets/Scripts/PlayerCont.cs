@@ -3,14 +3,19 @@ using System.Collections;
 
 public class PlayerCont : MonoBehaviour {
 
-	private CharacterController Player;
-	private double speed;
+	private CharacterController player;
+	private Vector3 forceCharacter = Vector3.zero;
+	private float speed =5;
 
-	void Start () {
-	
+	private Vector3 moveDistance;
+
+	void Start () 
+	{
+		player = GetComponent<CharacterController> ();
 	}
 
-	void Update () {
-
+	void Update () 
+	{
+		//GetComponent<CharacterController> ().velocity = new Vector2 (speed, GetComponent<CharacterController> ().velocity.z);
 	}
 }
