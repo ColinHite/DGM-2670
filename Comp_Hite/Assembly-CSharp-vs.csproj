@@ -46,8 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\GameOp.cs" />
+     <Compile Include="Assets\Scripts\Not Used\AnimalInheritance.cs" />
+     <Compile Include="Assets\Scripts\Not Used\Cat.cs" />
+     <Compile Include="Assets\Scripts\Not Used\Dog.cs" />
+     <Compile Include="Assets\Scripts\Not Used\EndGame.cs" />
+     <Compile Include="Assets\Scripts\Not Used\OnPlay.cs" />
      <Compile Include="Assets\Scripts\PlayerCont.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
