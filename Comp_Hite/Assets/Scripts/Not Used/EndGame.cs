@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour {
-
+    /*
 	public float health = 1f;
 	public Transform healthBar;
 
@@ -37,5 +37,5 @@ public class EndGame : MonoBehaviour {
 
 		StartCoroutine (EndThisGame ());
 	}
-
+    */
 }

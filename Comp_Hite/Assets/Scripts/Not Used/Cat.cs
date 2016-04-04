@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Cat : AnimalInheritance {
-
+    /*
 	protected void Scratch ()
 	{
 
@@ -20,5 +20,5 @@ public class Cat : AnimalInheritance {
 	void OnMouseDown () 
 	{
 		Scratch ();
-	}
+	}*/
 }

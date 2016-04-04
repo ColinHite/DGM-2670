@@ -3,24 +3,41 @@ using System.Collections;
 
 public class PlayerCont : MonoBehaviour {
 
-    //Air Plane pos / mouse pos
-    public Transform airPlanePos;
-    //public Transform mousePos;
+	public static float speed = 1;
+    public static float distance = 1.0f;
+    public static Vector3 mousePosition;
+    public int roationSpeed = 100;
 
-    //AirPlane speed controls
-	public float speed =5;
-	private float playerSpeed;
+    void Start()
+    {
 
-	void Start ()
-    { 
-		playerSpeed = GetComponent<Rigidbody> ().velocity.x;
-	}
 
-	void Update () 
-	{
+    }
 
-        transform.localPosition = Vector3.Lerp (airPlanePos.position, Input.mousePosition, Time.time);
+    void FixedUpdate()
 
-        GetComponent<Rigidbody>().velocity = new Vector3 (playerSpeed, 0, speed);
-	}
+    {
+
+        //Makes the plane go left and right when the mouse is left or right
+
+        if (Input.mousePosition.x < (Screen.width / 2d))
+        {
+            transform.Rotate(Vector3.down * Time.deltaTime * roationSpeed);
+        }
+        else
+        {
+            transform.Rotate(Vector3.up * Time.deltaTime * roationSpeed);
+            //Debug.Log("is doing something");
+        }
+
+        //isolates the movement to the mathematical position of the plane
+        float distance = (transform.position - GetComponentInChildren<Camera>().transform.position).magnitude;
+        //passes Vector3 data from the mouse's position
+        mousePosition = Input.mousePosition;
+        //Sets the z distance to a point in front of the camera and its speed
+        mousePosition.z = distance + speed;
+        //Calculates the mouse to the object relativly.
+        transform.position = GetComponentInChildren<Camera>().ScreenToWorldPoint(mousePosition);
+    }
+
 }
