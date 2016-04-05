@@ -3,10 +3,10 @@ using System.Collections;
 
 public class CameraMove : MonoBehaviour {
 
-    public static Quaternion targetRot;
-    public static float RotX;
-    public static float RotY;
-    public static float RotZ;
+    //public static Quaternion targetRot;
+   // public static float RotX;
+    //public static float RotY;
+   // public static float RotZ;
 
     public static Vector3 targetPos;
 	public static float ViewX;
@@ -35,9 +35,9 @@ public class CameraMove : MonoBehaviour {
 
 		targetPos = new Vector3 (player.transform.position.x, player.transform.position.y, player.transform.position.z);
 
-		ViewX -= (ViewX - targetPos.x) * 0.1f;
-        ViewY -= (ViewY - targetPos.y) * 0.1f;
-        ViewZ -= (ViewZ - targetPos.z) * 0.1f;
+		ViewX -= (ViewX - targetPos.x) * 1f;
+        ViewY -= (ViewY - targetPos.y) * 1f;
+        ViewZ -= (ViewZ - targetPos.z) * 1f;
 
 		gameObject.transform.position = new Vector3(ViewX, ViewY, ViewZ);
 

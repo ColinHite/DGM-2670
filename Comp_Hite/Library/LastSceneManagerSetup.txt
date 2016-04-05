@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DogFighter_Hite.unity
+- path: Assets/DogFighter_V2_Hite.unity
   isLoaded: 1
   isActive: 1
