@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Old\StaticVariables.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Old\HealthPowerUp.cs">
     <Files>
-      <File FileName="..\Comp_Hite\Assets\Scripts\PlayerCont.cs" Line="17" Column="23" />
-      <File FileName="Assets\Scripts\Old\Weapon.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Old\PowerUpOverloaded.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Old\StaticVariables.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Old\HealthPowerUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Old\HealthPowerUp.cs" Line="12" Column="3" />
+      <File FileName="Assets\Scripts\Old\PowerUpOverloaded.cs" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\Old\StaticVariables.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

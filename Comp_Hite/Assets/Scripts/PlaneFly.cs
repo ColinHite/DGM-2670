@@ -14,6 +14,14 @@ public class PlaneFly : MonoBehaviour {
 
     }
 	
+	void Update ()
+	{
+		if (StaticVariables.playerHealth < 0) {
+			StaticVariables.playerHealth = 0;
+
+
+		}
+	}
 
 	void FixedUpdate ()
 	{
