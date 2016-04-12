@@ -10,8 +10,6 @@ public class HealthPowerUp : PowerUpPass
 	{
 		PowerUp (healthAmount = (StaticVariables.playerHealth * 0.25f));
 
-		
-
 		Debug.Log ("This is adding health by: " + healthAmount);
 		Debug.Log ("This should be the current health: " + StaticVariables.playerHealth);
 

@@ -51,12 +51,14 @@
      <Compile Include="Assets\Scripts\Backup\PlayerContBackup.cs" />
      <Compile Include="Assets\Scripts\Backup\YellowSphere.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\DisplayUiItems.cs" />
      <Compile Include="Assets\Scripts\GameOp.cs" />
      <Compile Include="Assets\Scripts\Not Used\AnimalInheritance.cs" />
      <Compile Include="Assets\Scripts\Not Used\Cat.cs" />
      <Compile Include="Assets\Scripts\Not Used\Dog.cs" />
      <Compile Include="Assets\Scripts\Not Used\EndGame.cs" />
      <Compile Include="Assets\Scripts\Not Used\OnPlay.cs" />
+     <Compile Include="Assets\Scripts\PlaneDown.cs" />
      <Compile Include="Assets\Scripts\PlaneFly.cs" />
      <Compile Include="Assets\Scripts\PowerUpPass.cs" />
      <Compile Include="Assets\Scripts\PowerUps\HealthPowerUp.cs" />

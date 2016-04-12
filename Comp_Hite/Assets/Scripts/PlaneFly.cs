@@ -9,18 +9,16 @@ public class PlaneFly : MonoBehaviour {
 	public float altitudeMax = 35.0f;
 	public float maxDive = 125.0f;
 
+	public PlaneDown planeDown;
+
     void Start ()
     {
-
+		planeDown = FindObjectOfType<PlaneDown>();
     }
 	
 	void Update ()
 	{
-		if (StaticVariables.playerHealth < 0) {
-			StaticVariables.playerHealth = 0;
 
-
-		}
 	}
 
 	void FixedUpdate ()
@@ -36,8 +34,20 @@ public class PlaneFly : MonoBehaviour {
 			speed = maxDive;
 		}
 
-		transform.Rotate(-Input.GetAxis("Vertical"), 0.0f, -Input.GetAxis("Horizontal"));
 
+		if (StaticVariables.playerHealth < 0) 
+		{
+			Debug.Log ("Is below 0");
+
+			StaticVariables.playerHealth = 0;
+			
+			planeDown.PlayerIsDown();
+		
+		}
+		else
+		{
+			transform.Rotate (-Input.GetAxis ("Vertical"), 0.0f, -Input.GetAxis ("Horizontal"));
+		}
         transform.position += transform.forward * Time.deltaTime * speed;
     }
 }
