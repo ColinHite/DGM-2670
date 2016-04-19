@@ -9,11 +9,11 @@ public class PlaneFly : MonoBehaviour {
 	public float altitudeMax = 35.0f;
 	public float maxDive = 125.0f;
 
-	public PlaneDown planeDown;
+
 
     void Start ()
     {
-		planeDown = FindObjectOfType<PlaneDown>();
+
     }
 	
 	void Update ()
@@ -41,7 +41,6 @@ public class PlaneFly : MonoBehaviour {
 
 			StaticVariables.playerHealth = 0;
 			
-			planeDown.PlayerIsDown();
 		
 		}
 		else

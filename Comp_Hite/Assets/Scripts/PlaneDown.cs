@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 	public class PlaneDown : MonoBehaviour {
@@ -8,23 +9,25 @@ using System.Collections;
 	private float delay = 1.0f;
     public float respawnDelay = 5.0f;
 
-	void Start ()
+    public void PlayerIsDown(TerrainStuff _isDead)
+    {
+        StartCoroutine("KillPlayerCo");
+    }
+
+
+    void Start ()
 	{
 		player = FindObjectOfType<PlaneFly> ();
-
-	}
-
-	public void PlayerIsDown ()
-	{
-		StartCoroutine ("KillPlayerCo");
-	}
+        TerrainStuff.PlayerIsRespawn += PlayerIsDown;
+    }
 
 	public IEnumerator KillPlayerCo()
 	{
-        if (player.gameObject == false)
+        Debug.Log ("isplaying coroutine");
+        if (StaticVariables.player == false)
         {
             new WaitForSeconds (respawnDelay);
-            player.gameObject.SetActive(true);
+            StaticVariables.player.gameObject.SetActive(true);
         }
 			player.GetComponent<Rigidbody>().useGravity = true;
 		yield return new WaitForSeconds (delay);
