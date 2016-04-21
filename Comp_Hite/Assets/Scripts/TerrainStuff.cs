@@ -13,6 +13,8 @@ public class TerrainStuff : MonoBehaviour
         //StaticVariables.playerHealth = 0;
         Debug.Log("is hitting ground");
 
+		PlaneDown.isDead = true;
+
         if (col.gameObject == false)
         {
             Debug.Log("Is Respawning");

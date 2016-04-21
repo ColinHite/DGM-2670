@@ -1,14 +1,9 @@
 ﻿<Properties StartupItem="Comp_Hite.CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlaneDown.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ChangePlane.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlaneDown.cs" Line="10" Column="26" />
-      <File FileName="Assets\Scripts\StaticVariables.cs" Line="5" Column="2" />
-      <File FileName="Assets\Scripts\PlaneFly.cs" Line="4" Column="40" />
-      <File FileName="Assets\Scripts\CameraMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PowerUpPass.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PowerUps\HealthPowerUp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DisplayUiItems.cs" Line="13" Column="2" />
+      <File FileName="Assets\Scripts\RotateHealth.cs" Line="13" Column="21" />
+      <File FileName="Assets\Scripts\ChangePlane.cs" Line="18" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

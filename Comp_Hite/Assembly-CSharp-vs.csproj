@@ -51,8 +51,10 @@
      <Compile Include="Assets\Scripts\Backup\PlayerContBackup.cs" />
      <Compile Include="Assets\Scripts\Backup\YellowSphere.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\ChangePlane.cs" />
      <Compile Include="Assets\Scripts\DisplayUiItems.cs" />
      <Compile Include="Assets\Scripts\GameOp.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Not Used\AnimalInheritance.cs" />
      <Compile Include="Assets\Scripts\Not Used\Cat.cs" />
      <Compile Include="Assets\Scripts\Not Used\Dog.cs" />
@@ -62,7 +64,9 @@
      <Compile Include="Assets\Scripts\PlaneFly.cs" />
      <Compile Include="Assets\Scripts\PowerUpPass.cs" />
      <Compile Include="Assets\Scripts\PowerUps\HealthPowerUp.cs" />
+     <Compile Include="Assets\Scripts\RotateHealth.cs" />
      <Compile Include="Assets\Scripts\StaticVariables.cs" />
+     <Compile Include="Assets\Scripts\TerrainStuff.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

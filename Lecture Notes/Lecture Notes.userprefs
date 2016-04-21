@@ -1,10 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Old\HealthPowerUp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Comp_Hite\Assets\Scripts\RotateHealth.cs">
     <Files>
-      <File FileName="Assets\Scripts\Old\HealthPowerUp.cs" Line="12" Column="3" />
-      <File FileName="Assets\Scripts\Old\PowerUpOverloaded.cs" Line="12" Column="2" />
-      <File FileName="Assets\Scripts\Old\StaticVariables.cs" Line="16" Column="2" />
+      <File FileName="..\Comp_Hite\Assets\Scripts\RotateHealth.cs" Line="11" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
